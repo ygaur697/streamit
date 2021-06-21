@@ -1,0 +1,32 @@
+Following are the points on this particular project
+->  Build a client that have two options
+    - As a user I can open a channel and stream anything I want in that channel either Desktop streaming
+    - Or I can upload a video and that can be streamed
+        - To watch anything that I stream on my channel one needs to have a passcode 
+    Other utility:
+    Comment section and reply option to anyone in the chat
+    
+-> Make your own system a server which people can access over the internet initially
+
+
+Services needs to be build:
+-> Authentication service 
+-> Channel Service
+-> Video streming service 
+-> Figure out how you can host the application in your own computer to the world in a safe way
+-----------------------------------------------------------------------------------------------
+Test the following constraints:
+    How much load can your application take?
+    How can you make things more efficient?
+    What are the security risks of putting your system online if any?
+    What are other security threats to such application and how you can protect it?
+
+
+Starting with following tasks:
+- Create Authentication system with login page 
+- Create Channel Dashboard
+- Start building the server in Django, checkout django rest server
+- build the basic video streaming of a video, that is when you upload and play from your channel dashboard, on the localhost you should
+  able to see the video getting streamed
+
+
