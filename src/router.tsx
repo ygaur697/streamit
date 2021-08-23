@@ -12,11 +12,9 @@ export default function routerConfig() {
         <Router>
             <div>
                 <Switch>
-                    <Route exact path="/">
-                        <LoginComponent />
-                    </Route>
+                    <Route exact path="/" component={LoginComponent} />            
                 </Switch>
             </div>
         </Router>
     )
-}
+}   

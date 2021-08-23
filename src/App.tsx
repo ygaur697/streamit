@@ -7,6 +7,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import DashboardComponent from './DashboardComponent/DashboardComponent';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <div>
             <Switch>
                 <Route exact path="/">
+                    <DashboardComponent />
+                </Route>
+                <Route exact path="/login">
                     <LoginComponent />
                 </Route>
             </Switch>
